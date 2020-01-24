@@ -2,6 +2,8 @@ language: rust
 
 rust:
   - stable
+  - beta
+  - nightly
 
 os: 
   - linux
@@ -9,6 +11,7 @@ os:
 dist: xenial
 
 script:
+    - cargo install cargo-tarpaulin
     - cargo build --verbose
     - cargo tarpaulin --out Xml
     - bash <(curl -s https://codecov.io/bash)
