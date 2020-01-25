@@ -29,5 +29,4 @@ lto = false
 debug = false
 debug-assertions = false
 overflow-checks = false
-panic = 'unwind'
 
