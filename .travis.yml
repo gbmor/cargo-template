@@ -8,7 +8,7 @@ rust:
 os: 
   - linux
 
-dist: xenial
+dist: bionic
 
 script:
     - cargo install cargo-tarpaulin
