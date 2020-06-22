@@ -1,6 +1,6 @@
 # {{project-name}}
 
-[![Build Status](https://travis-ci.com/gbmor/{{project-name}}.svg?branch=master)](https://travis-ci.com/gbmor/{{project-name}}) [![codecov](https://codecov.io/gh/gbmor/{{project-name}}/branch/master/graph/badge.svg)](https://codecov.io/gh/gbmor/{{project-name}})
+[![builds.sr.ht status](https://builds.sr.ht/~gbmor/{{project-name}}.svg)](https://builds.sr.ht/~gbmor/{{project-name}}?) [![Build Status](https://travis-ci.com/gbmor/{{project-name}}.svg?branch=master)](https://travis-ci.com/gbmor/{{project-name}}) [![codecov](https://codecov.io/gh/gbmor/{{project-name}}/branch/master/graph/badge.svg)](https://codecov.io/gh/gbmor/{{project-name}})
 
 ## License
 

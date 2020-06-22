@@ -1,0 +1,10 @@
+image: alpine/edge
+packages:
+  - rust
+  - cargo
+sources:
+  - https://git.sr.ht/~gbmor/{{project-name}}
+tasks:
+  - build: |
+      cargo test
+      cargo build
